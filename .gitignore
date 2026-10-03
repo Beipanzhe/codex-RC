@@ -1,0 +1,31 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+.next/
+.nuxt/
+coverage/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Rust
+/target/
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+*.log
